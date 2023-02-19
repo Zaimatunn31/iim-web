@@ -1,0 +1,14 @@
+{
+  "data": [
+    {
+      "nama": "Test",
+      "deskripsi": "tes qc",
+      "id": 1
+    },
+    {
+      "nama": "xcvb",
+      "deskripsi": "\\zxcv",
+      "id": 2
+    }
+  ]
+}
