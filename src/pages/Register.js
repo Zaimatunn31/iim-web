@@ -54,7 +54,7 @@ function Register({setUser}) {
             <div className="d-flex flex-column min-vh-100 justify-content-center align-items-center">
                
                 <div className="card p-5 w-50">
-                <h1 className='mb-4'>Registration</h1>
+                <h1 className='mb-4'>Sing up</h1>
                     <form onSubmit={onSubmit}>
                         <div className="form-group">
                             <label htmlFor="exampleInputEmail1">Email address</label>
@@ -70,7 +70,7 @@ function Register({setUser}) {
                             onChange={(e) => onValueChange(e)}
                             className="form-control" id="password" name="password" placeholder="ketikkan password anda" />
                         </div>
-                        <button type="submit" className="btn btn-success w-100" >Register</button>
+                        <button type="submit" className="btn btn-success w-100" >Sing up</button>
                         <Link to="/login"  className="btn btn-primary w-100 my-2">Have acount? Sign in</Link>
                         
 
